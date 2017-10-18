@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  line-height: inherit;
+
+}
+
+li {
+  all: unset;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
