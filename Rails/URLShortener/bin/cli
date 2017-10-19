@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+puts "What is your email?"
+email = gets.chomp

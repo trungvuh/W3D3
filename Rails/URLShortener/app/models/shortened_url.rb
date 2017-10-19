@@ -42,9 +42,8 @@ class ShortenedUrl < ApplicationRecord
   end
 
   def num_recent_uniques
-    start = Time.now - 1000
-    self.visitors.where(updated_at: start)
-
+    start = Time.now - 10.minutes.ago
+    self.visitors.where("updated_at >= '#{start}'")
   end
 
 
